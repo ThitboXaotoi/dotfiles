@@ -1,6 +1,14 @@
 return {
    ["tpope/vim-surround"] = {},
+   -- ["kylechui/nvim-surround"] = {}, --maybe will try to replace vim-surround
    ["mattn/emmet-vim"] = {},
+
+
+   -- Python Plugins
+   ["davidhalter/jedi-vim"] = {},
+
+
+   -- Neorg
    ["nvim-neorg/neorg"] = {
       -- tag = "latest",
       ft = "norg",
@@ -12,6 +20,6 @@ return {
             }
          }
       end
-   },
+   }
 }
 
